@@ -1,0 +1,20 @@
+# PyInstaller build artifacts
+build/
+dist/
+*.spec
+
+# Python
+__pycache__/
+*.pyc
+
+# Runtime output (regenerated on each install attempt)
+office_installer_error.log
+
+# Microsoft's ODT binary — redistribute via the official download link instead
+# of committing it (licensing + it's a large binary that doesn't belong in git)
+setup.exe
+
+# Real deployment configs may contain a live product/tenant key — keep the
+# placeholder configuration.xml in the repo as a template, but don't commit
+# any config you actually use to activate a real license
+configuration.local.xml
